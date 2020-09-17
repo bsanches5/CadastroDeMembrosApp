@@ -1,0 +1,1 @@
+É um projeto para os militares da Associação de Veteranos e Amigos que consiste em cadastrar os membros, emitir pushs e alerts sobre eventos e ver a situação em que encontra suas matrículas na Associação.
