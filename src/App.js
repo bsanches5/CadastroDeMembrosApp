@@ -7,19 +7,24 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, {Component} from 'react';
 import {View} from 'react-native';
 
+import SplashScreen from 'react-native-splash-screen';
 import FormLogin from './components/FormLogin';
 
-const App: () => React$Node = () => {
-  return (
-    <>
-      <View style={{flex: 1}}>
-        <FormLogin />
-      </View>
-    </>
-  );
-};
+export default class App extends Component {
+  componentDidMount() {
+    SplashScreen.hide();
+  }
 
-export default App;
+  render() {
+    return (
+      <>
+        <View style={{flex: 1}}>
+          <FormLogin />
+        </View>
+      </>
+    );
+  }
+}

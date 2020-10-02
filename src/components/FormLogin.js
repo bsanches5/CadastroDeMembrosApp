@@ -35,14 +35,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   image: {
-    height: 150,
-    width: 150,
+    height: 190,
+    width: 200,
   },
   input: {
     marginTop: 40,
     backgroundColor: '#FFF',
     borderRadius: 10,
     width: 300,
+    textAlign: 'center',
   },
   text: {
     marginTop: 20,
